@@ -1,0 +1,50 @@
+body{
+    background: #dcf5ff;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-family: 'Nunito', 'sans-serif';
+    margin: 0;
+    height: 100vh;
+}
+
+
+
+    .inner{
+        background: #00ff9d;
+        padding: 1em;
+        border-radius: 10px;
+        width: 250px;
+        clip-path: circle(10% at 90% 20%);
+        transition: all 0.5s ease-in-out;
+        cursor: pointer;
+
+        &:hover{
+            clip-path: circle(75%);
+            background: #00B6ff;
+        }
+        h1{
+            color: white;
+            margin: 0;
+        }
+
+        p{
+            color: white;
+            font-size: .8rem;
+        }
+        span{
+            position: relative;
+            float: right;
+            color: white;
+            font-weight: bold;
+            transition:color .5s ;
+            margin-right: 4%;
+        }
+
+        &:hover span{
+            color: #00B6ff ;
+        }
+
+    }
+ 
+
